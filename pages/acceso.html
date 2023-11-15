@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilos.css">
+    <title>acceso</title>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>logo</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">home</a></li>
+                <li><a href="tienda.html">tienda</a></li>
+                <li><a href="acceso.html">acceso</a></li>
+                <li><a href="carro.html">carro</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Fin Header -->
+    <!-- Main -->
+    <main>
+        <img src="../img/girlsleep.jpg" alt="sleep" height="auto" width="100%">
+    </main>
+    <!-- Fin main -->
+    <!-- Inicion de sesion -->
+    <section class="inicioSesion">
+        <h2>Inicio de sessión</h2>
+        <form action="enviar.php" method="post" enctype="application/x-www-form-urlencoded">
+            <input type="email" placeholder="email"> <br>
+            <input type="password"placeholder="contraseña"> <br>
+            <a href="">¿olvidaste tu contraseña?</a> <br>
+            <input type="submit" value="iniciar sesion"> <br>
+            <a href="">crear cuenta</a> <br>
+        </form>
+    </section>
+    <!-- Fin Inicion de sesion -->
+    <!-- Footer -->
+    <footer>
+        <nav id="info">
+            <ul>
+                <li><a href="contacto.html">contacto</a></li>
+                <li><a href="">envios</a></li>
+            </ul>
+        </nav>
+        <form action="enviar.php" method="post" enctype="application/x-www-form-urlencoded">
+            <h2>newsletter</h2>
+            <input type="email" placeholder="email">
+            <input type="submit" value="enviar">
+        </form>
+    </footer>
+    <!-- Fin Footer -->
+</body>
+</html>

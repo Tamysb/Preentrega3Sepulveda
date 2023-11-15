@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilos.css">
+    <title>carro</title>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>logo</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">home</a></li>
+                <li><a href="tienda.html">tienda</a></li>
+                <li><a href="acceso.html">acceso</a></li>
+                <li><a href="carro.html">carro</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Fin Header -->
+    <!-- Main -->
+    <main>
+        <img src="../img/girlsleep.jpg" alt="girlsleep" height="auto" width="100%">
+    </main>
+    <!-- Fin Main -->
+    <!-- Carro -->
+    <section class="carro">
+        <table border="5" cellspacing="4" cellpading="4">
+            <tr>
+                <th colspan="3">Producto</th>
+                <th>Precio</th>
+            </tr>
+            <tr>
+                <td><img src="../img/womendress.jpg" alt="dress" height="30%" width="30%"></td>
+                <td>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur, dolores!</td>
+                <td>Cantidad</td>
+                <td>Precio</td>
+            </tr>
+            <tr>
+                <td><img src="../img/womendress.jpg" alt="dress" height="30%" width="30%"></td>
+                <td>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur, dolores!</td>
+                <td>Cantidad</td>
+                <td>Precio</td>
+            </tr>
+            <tr>
+                <td colspan="3">Total</td>
+                <td>Precio</td>
+            </tr>
+            <tr>
+                <td colspan="3"></td>
+                <td>
+                    <form action="enviar.php" method="post" enctype="application/x-www-form-urlencoded">
+                        <input type="submit" value="ir a pagar">
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </section>
+    <!-- Fin Carro -->
+    <!-- Footer -->
+    <footer> 
+        <nav id="info">
+            <ul>
+                <li><a href="contacto.html">contacto</a></li>
+                <li><a href="">envios</a></li>
+            </ul>
+        </nav>
+        <form action="enviar.php" method="post" enctype="application/x-www-form-urlencoded">
+            <h2>newsletter</h2>
+            <input type="email" placeholder="email">
+            <input type="submit" value="enviar">
+        </form>
+    </footer>
+    <!-- Fin Footer -->
+</body>
+</html>

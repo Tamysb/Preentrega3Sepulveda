@@ -8,7 +8,6 @@ font-family: 'Rubik', sans-serif; */
 }
 
 /* Header */
-/* Fin Header*/
 header {
   background-color: #000000;
   color: #ffffff;
@@ -66,6 +65,7 @@ nav a:active {
 }
 
 /* Fin Main */
+/*Breadcrumb*/
 .breadcrumb {
   background-color: #000000;
   margin-bottom: 0;
@@ -81,6 +81,7 @@ nav a:active {
   color: #ffffff;
 }
 
+/*Fin Breadcrumb*/
 /* Home Carrusel*/
 .row {
   background-color: #000000;
@@ -107,6 +108,7 @@ nav a:active {
   text-align: center;
 }
 
+/*Fin Home*/
 /* Desktop estilos */
 @media only screen and (min-width: 1300px) and (max-width: 2560px) {
   .slide-main {
@@ -140,9 +142,12 @@ nav a:active {
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
+  /*main*/
   .slide-main {
     height: 400px;
   }
+  /*fin main*/
+  /*home*/
   .row {
     padding-right: 40px;
   }
@@ -152,7 +157,6 @@ nav a:active {
     flex-flow: row wrap;
     justify-content: center;
     align-items: flex-start;
-    gap: 20px;
   }
   .col-lg-5 {
     padding-top: 20px;
@@ -161,13 +165,17 @@ nav a:active {
     justify-content: flex-start;
     align-items: center;
   }
+  /*fin home*/
 }
 /* Tablet estilos  */
 @media (max-width: 768px) {
+  /*manin*/
   .slide-main {
     height: 350px;
   }
-  .col-md-7 {
+  /*fin main*/
+  /*home*/
+  .col-md-7, .col-md-5 {
     background-color: #000000;
     padding: 20px;
     display: flex;
@@ -176,15 +184,7 @@ nav a:active {
     align-items: flex-start;
     gap: 20px;
   }
-  .col-md-5 {
-    background-color: #000000;
-    padding: 20px;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 20px;
-  }
+  /*fin home*/
 }
 /* Mobile estilos */
 @media only screen and (min-width: 400px) and (max-width: 576px) {
@@ -215,12 +215,17 @@ nav a:active {
   body {
     max-width: 320px;
   }
+  /*header*/
   header nav ul li {
     padding: 5px;
   }
+  /*fin header*/
+  /*main*/
   .slide-main {
     height: 200px;
   }
+  /*fin main*/
+  /*home*/
   .container-fluid {
     max-width: 320px;
     background-color: #000000;
@@ -236,10 +241,10 @@ nav a:active {
   }
   .imagen-producto {
     height: 600px;
-    width: 300px;
+    width: 280px;
   }
+  /*fin home*/
 }
-/* Fin Home */
 /* Tienda */
 .tienda {
   background-color: #000000;
@@ -349,7 +354,7 @@ nav a:active {
 }
 
 .table {
-  background-color: #ffffff;
+  background-color: #000000;
   border: 2px solid #000000;
   margin: 0 auto;
   font-family: "Rubik", sans-serif;
@@ -418,8 +423,8 @@ footer {
   text-align: right;
 }
 .footer ul li a {
-  color: #ffffff;
   text-decoration: none;
+  color: #ffffff;
 }
 .footer form {
   width: 320px;

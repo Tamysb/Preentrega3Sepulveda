@@ -31,27 +31,27 @@
     <!-- Fin main -->
     <!-- Contacto -->
     <section class="contacto">
+        <div class="contacto-form">
         <h2>envianos tus dudas</h2>
         <form action="enviar.php" method="post" enctype="application/x-www-form-urlencoded">
             <input type="text" placeholder="nombre"> <br>
             <input type="email" placeholder="email"> <br>
-            <textarea name="areadetexto" id="" cols="30" rows="5" placeholder="escribe tu comentario"></textarea> <br>
+            <textarea name="areadetexto" id="comentario" cols="30" rows="5" placeholder="escribe tu comentario"></textarea> <br>
             <input type="submit" value="enviar">
         </form>
-    </section>
-    <!-- Contacto -->
-    <!-- Info -->
-    <section class="contacto">
-        <div>
+        </div>
+        <div class="contacto-info">
             <h3>dirección</h3>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo, est!</p>
             <h3>informacion</h3>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa eveniet dolore illum placeat eum.</p>
             <h3>horario de atencion</h3>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla veniam at quis, inventore laborum asperiores sapiente consequatur facere unde velit?</p>
-        </div>
-        
+        </div>   
     </section>
+    <!-- Contacto -->
+    <!-- Info -->
+    
     <!-- Info -->
     <!-- Footer -->
     <footer>
@@ -61,6 +61,10 @@
                 <li><a href="">envios</a></li>
             </ul>
         </nav>
+        <div id="redes">
+            <a href="https://es-la.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/?hl=es"><i class="fa-brands fa-instagram"></i></a>
+        </div>
         <form action="enviar.php" method="post" enctype="application/x-www-form-urlencoded">
             <h2>newsletter</h2>
             <input type="email" placeholder="email">

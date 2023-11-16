@@ -82,6 +82,37 @@ nav a:active {
 }
 
 /* Desktop estilos */
+@media only screen and (min-width: 1300px) and (max-width: 2560px) {
+  .slide-main {
+    height: 400px;
+  }
+  .row {
+    padding-right: 40px;
+  }
+  .col-xl-7 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .col-xl-5 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .imagen-producto {
+    height: 900px;
+    width: 600px;
+    background-image: url(img/woman-1547507_1280.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+}
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   .slide-main {
     height: 400px;
@@ -233,17 +264,50 @@ nav a:active {
   font-size: 20px;
   color: #ffffff;
   text-transform: uppercase;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
 }
-
-.contacto form {
-  border: 2px;
+.contacto .contacto-form {
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-
-.contacto div {
-  width: 50%;
-  border: 2px;
+.contacto .contacto-form input[type=text] {
+  border: none;
+  height: 50px;
+  width: 240px;
+  margin-bottom: 10px;
+}
+.contacto .contacto-form #comentario {
+  border: none;
+  height: 50px;
+  width: 240px;
+  margin-bottom: 10px;
+}
+.contacto .contacto-form input[type=email] {
+  border: none;
+  height: 50px;
+  width: 240px;
+  margin-bottom: 10px;
+}
+.contacto .contacto-form input[type=submit] {
+  background-color: #808080;
+  width: 240px;
+}
+.contacto .contacto-form a {
+  color: #808080;
+  font-size: 15px;
+}
+.contacto .contacto-info {
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 370px;
+}
+.contacto .contacto-info p {
+  font-size: 17px;
 }
 
 /* Fin Contacto */
@@ -310,8 +374,11 @@ footer {
   padding: 5px;
 }
 
+.footer {
+  width: 320px;
+}
 .footer ul {
-  padding-left: 0;
+  padding-left: 0px;
 }
 .footer ul li {
   display: flex;
@@ -323,24 +390,27 @@ footer {
   color: #ffffff;
   text-decoration: none;
 }
-
-#redes a {
-  color: #000000;
-  align-items: center;
-  font-size: 25px;
+.footer form {
+  width: 320px;
 }
-
-form h2 {
+.footer form h2 {
   text-align: center;
   font-weight: bold;
 }
-form input[type=email] {
+.footer form input[type=email] {
   border: none;
 }
-form input[type=submit] {
+.footer form input[type=submit] {
   background-color: #000000;
   color: #ffffff;
   border: none;
+}
+
+#redes a {
+  width: 53px;
+  color: #000000;
+  align-items: center;
+  font-size: 25px;
 }
 
 /* Fin Footer *//*# sourceMappingURL=estilos.css.map */

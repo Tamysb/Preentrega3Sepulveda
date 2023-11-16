@@ -91,9 +91,41 @@ nav a:active{
     font-family: 'Onest', sans-serif;
     text-align: center;
 }
-
+// Breakpoints
 /* Desktop estilos */
-// breakpoints
+@media only screen and (min-width:1300px) and (max-width:2560px) {
+    .slide-main{
+        height: 400px;
+    }
+    .row{
+        padding-right: 40px;
+    }
+    .col-xl-7{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .col-xl-5{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .imagen-producto{
+        height: 900px;
+        width: 600px;
+        background-image: url(img/woman-1547507_1280.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    
+}
 @media only screen and (min-width: 992px)and (max-width:1200px){
     .slide-main{
         height: 400px;
@@ -252,23 +284,59 @@ nav a:active{
 }
 /* Fin Tienda */
 /* Contacto */
+$height: 50px;
+$widht: 240px;
 .contacto{
     background-color: #000000;
     font-family: 'Rubik', sans-serif;
     font-size: 20px;
     color: #ffffff;
     text-transform: uppercase;
-}
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    .contacto-form{
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        input[type="text"]{
+            border: none;
+            height: $height;
+            width: $widht;
+            margin-bottom: 10px;
+        }
+        #comentario{
+            border: none;
+            height: $height;
+            width: $widht;
+            margin-bottom: 10px;
+        }
+        input[type="email"]{
+            border: none;
+            height: $height;
+            width: $widht;
+            margin-bottom: 10px;
+        }
+        input[type="submit"]{
+            background-color: $color3;
+            width: $widht;
+        }
+        a{
+            color: $color3;
+            font-size: 15px;
+        }
+    }
+    .contacto-info{
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        width:370px;
+        p{
+            font-size: 17px;
+        }
 
-.contacto form{
-    border: 2px;
-    padding: 20px;
-}
-
-.contacto div{
-    width: 50%;
-    border: 2px;
-    padding: 20px;
+    }
 }
 /* Fin Contacto */
 /* Carro */
@@ -338,8 +406,9 @@ footer{
     padding: 5px;
 }
 .footer{
+    width: 320px;
     ul{
-        padding-left: 0;
+        padding-left: 0px;
         li{
             display: flex;
             flex-direction: column;
@@ -351,13 +420,9 @@ footer{
             } 
         }
     }
-}
-#redes a{
-    color: #000000;
-    align-items: center;
-    font-size: 25px;
-}
-form{
+    
+    form{
+    width: 320px;
     h2{
         text-align: center;
         font-weight: bold;
@@ -371,5 +436,16 @@ form{
         color: $color2;
         border: none;
     }
+    }
+
 }
+#redes{
+         a{
+            width: 53px;
+            color: #000000;
+            align-items: center;
+            font-size: 25px;
+        }
+    }
+
 /* Fin Footer */

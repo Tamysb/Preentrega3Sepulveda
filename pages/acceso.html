@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../estilos.css">
+    <!-- icon redes sociales -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <title>acceso</title>
 </head>
 <body>
@@ -22,11 +26,11 @@
     <!-- Fin Header -->
     <!-- Main -->
     <main>
-        <img src="../img/girlsleep.jpg" alt="sleep" height="auto" width="100%">
+        <div class="slide-main"></div>
     </main>
     <!-- Fin main -->
     <!-- Inicion de sesion -->
-    <section class="inicioSesion">
+    <section class="acceso-sesion">
         <h2>Inicio de sessión</h2>
         <form action="enviar.php" method="post" enctype="application/x-www-form-urlencoded">
             <input type="email" placeholder="email"> <br>
@@ -39,12 +43,16 @@
     <!-- Fin Inicion de sesion -->
     <!-- Footer -->
     <footer>
-        <nav id="info">
+        <nav class="footer">
             <ul>
                 <li><a href="contacto.html">contacto</a></li>
                 <li><a href="">envios</a></li>
             </ul>
         </nav>
+        <div id="redes">
+            <a href="https://es-la.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/?hl=es"><i class="fa-brands fa-instagram"></i></a>
+        </div>
         <form action="enviar.php" method="post" enctype="application/x-www-form-urlencoded">
             <h2>newsletter</h2>
             <input type="email" placeholder="email">
@@ -52,5 +60,7 @@
         </form>
     </footer>
     <!-- Fin Footer -->
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -248,14 +248,14 @@ nav a:active {
 
 /* Fin Contacto */
 /* Carro */
-.carro {
+.table-responsive {
   background-color: #000000;
   padding: 20px;
 }
 
-.carro table {
+.table {
   background-color: #ffffff;
-  border: 5px solid #858484;
+  border: 2px solid #000000;
   margin: 0 auto;
   font-family: "Rubik", sans-serif;
   color: #000000;
@@ -265,7 +265,7 @@ nav a:active {
 
 /* Fin Carro */
 /* Acceso */
-.inicioSesion {
+.acceso-sesion {
   background-color: #000000;
   padding: 20px;
   font-family: "Rubik", sans-serif;
@@ -274,6 +274,24 @@ nav a:active {
   text-transform: uppercase;
   text-align: center;
   line-height: 50px;
+}
+.acceso-sesion form input[type=email] {
+  border: none;
+  height: 50px;
+  width: 240px;
+  margin-bottom: 10px;
+}
+.acceso-sesion form input[type=password] {
+  height: 50px;
+  width: 240px;
+}
+.acceso-sesion form input[type=submit] {
+  background-color: #808080;
+  width: 240px;
+}
+.acceso-sesion form a {
+  color: #808080;
+  font-size: 15px;
 }
 
 /* Fin Acceso */

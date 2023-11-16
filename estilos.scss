@@ -64,8 +64,39 @@ nav a:active{
     position: relative;
     background-size: cover;
     height: 400px;
+    animation-name: efecto;
+    animation-iteration-count: 1;
+    animation-duration: 2s;
+
+    @keyframes efecto {
+        0%{
+            height: 800px;
+
+        }
+        100%{
+            height: 300px;
+        }
+        
+    }
 }
 /* Fin Main */
+
+.breadcrumb{
+    background-color: #000000;
+    margin-bottom: 0;
+    li{
+        list-style: none;
+        display: inline-block;
+        padding: 10px;
+        font-variant: small-caps;
+
+
+        a{
+            text-decoration: none;
+            color: $color2;
+        }
+    }
+}
 
 /* Home Carrusel*/
 .row{
@@ -255,6 +286,11 @@ nav a:active{
 
 .producto{
     height: 350px;
+    background-color: $color1;
+    
+}
+.producto:hover{
+    transform: scale(1.1);
 }
 
 .producto-img{

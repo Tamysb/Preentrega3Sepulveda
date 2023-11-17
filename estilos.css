@@ -354,7 +354,7 @@ nav a:active {
 }
 
 .table {
-  background-color: #000000;
+  background-color: #ffffff;
   border: 2px solid #000000;
   margin: 0 auto;
   font-family: "Rubik", sans-serif;
@@ -426,17 +426,18 @@ footer {
   text-decoration: none;
   color: #ffffff;
 }
-.footer form {
+
+.form-footer {
   width: 320px;
 }
-.footer form h2 {
+.form-footer h2 {
   text-align: center;
   font-weight: bold;
 }
-.footer form input[type=email] {
+.form-footer input[type=email] {
   border: none;
 }
-.footer form input[type=submit] {
+.form-footer input[type=submit] {
   background-color: #000000;
   color: #ffffff;
   border: none;

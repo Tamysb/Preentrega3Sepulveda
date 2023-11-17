@@ -399,7 +399,7 @@ $widht: 240px;
 }
 
 .table{
-    background-color: $color1;
+    background-color: $color2;
     border: 2px solid $color1;
     margin: 0 auto;
     font-family: $font2;
@@ -473,7 +473,10 @@ footer{
         }
     }
     
-    form{
+    
+
+}
+.form-footer{
     width: 320px;
     h2{
         text-align: center;
@@ -489,8 +492,6 @@ footer{
         border: none;
     }
     }
-
-}
 #redes{
          a{
             width: 53px;
